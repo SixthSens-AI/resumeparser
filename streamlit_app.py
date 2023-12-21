@@ -24,7 +24,7 @@ def format_data(data):
     for key, value in data.items():
         st.write(f"**{key}**: {value}")
 
-st.title("Resume Parser")
+st.title("SixthSens Resume Parser")
 
 uploaded_file = st.file_uploader("Upload a resume", type=["pdf"])
 if uploaded_file is not None:
