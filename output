@@ -1,0 +1,21 @@
+PS C:\Users\AsusTuf\Desktop\ResupeParse> .\venv\Scripts\activate
+(venv) PS C:\Users\AsusTuf\Desktop\ResupeParse> java --version
+java 21.0.1 2023-10-17 LTS
+Java(TM) SE Runtime Environment (build 21.0.1+12-LTS-29)
+Java HotSpot(TM) 64-Bit Server VM (build 21.0.1+12-LTS-29, mixed mode, sharing)
+(venv) PS C:\Users\AsusTuf\Desktop\ResupeParse> python main.py
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\AsusTuf\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+C:\Users\AsusTuf\Desktop\ResupeParse\venv\lib\site-packages\spacy\util.py:275: UserWarning: [W031] Model 'en_training' (0.0.0) requires spaCy v2.2 and is incompatible with the current spaCy version (2.3.9). This may lead to unexpected results or runtime errors. To resolve this, download a newer compatible model or retrain your custom model with the current spaCy version. For more details and available updates, run: python -m spacy validate
+  warnings.warn(warn_msg)
+2023-12-01 12:30:33,254 [MainThread  ] [WARNI]  Failed to see startup log message; retrying...
+{'email': 'kumarrajwani1811@gmail.com', 'phone': '8141873476', 'name': 'Kumar Rajwani', 'total_exp': 4, 'university': [], 'designition': ['machine learning engineer', 'learning engineer', 'python developer', 'content writer'], 'degree': [], 'skills': ['NLP Computer Vision Flask Tensorflow', 'Pytorch NLTK SKlearn django rasa', 'Data Preprocessing Keras Web Scraping', 'Transfer Learning TFLite docker git', 'Hindi', 'Professional Working Proficiency', 'English', 'Gujarati'], 'Companies worked at': []}
+(venv) PS C:\Users\AsusTuf\Desktop\ResupeParse> python main.py
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\AsusTuf\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+C:\Users\AsusTuf\Desktop\ResupeParse\venv\lib\site-packages\spacy\util.py:275: UserWarning: [W031] Model 'en_training' (0.0.0) requires spaCy v2.2 and is incompatible with the current spaCy version (2.3.9). This may lead to unexpected results or runtime errors. To resolve this, download a newer compatible model or retrain your custom model with the current spaCy version. For more details and available updates, run: python -m spacy validate
+  warnings.warn(warn_msg)
+{'email': None, 'phone': '', 'name': 'Dushyant Bhatt', 'total_exp': 8, 'university': ['saurashtra university'], 'designition': ['sales/marketing', 'software engineer', 'pick up', 'partner', 'project manager'], 'degree': [], 'skills': ['problem solving (Less than 1 year)', ' project lifecycle (Less than 1 year)', ' project manager (Less', 'than 1 year)', ' technical assistance. (Less than 1 year)', 'Excellent analytical', ' problem solving', ' communication', ' knowledge transfer and interpersonal', 'skills with ability to interact with individuals at all the levels', 'Quick learner and maintains cordial relationship with project manager and team members and', 'good performer both in team and independent job environments', 'Positive attitude towards superiors &amp; peers', 'Supervised junior developers throughout project lifecycle and provided technical assistance.'], 'Companies worked at': ['Microsoft']}
+(venv) PS C:\Users\AsusTuf\Desktop\ResupeParse>
